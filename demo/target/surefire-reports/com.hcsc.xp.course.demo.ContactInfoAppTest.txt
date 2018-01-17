@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.hcsc.xp.course.demo.ContactInfoAppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.444 sec <<< FAILURE! - in com.hcsc.xp.course.demo.ContactInfoAppTest
+writeAContactToDataStore(com.hcsc.xp.course.demo.ContactInfoAppTest)  Time elapsed: 0.034 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is not null
+     but: was null
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.hcsc.xp.course.demo.ContactInfoAppTest.writeAContactToDataStore(ContactInfoAppTest.java:21)
+
